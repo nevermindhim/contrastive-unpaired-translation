@@ -1,8 +1,6 @@
 
 
 # Contrastive Unpaired Translation (CUT)
-
-### [video (1m)](https://youtu.be/Llg0vE_MVgk) |  [video (10m)](https://youtu.be/jSGOzjmN8q0) | [website](http://taesung.me/ContrastiveUnpairedTranslation/) |   [paper](https://arxiv.org/pdf/2007.15651)
 <br>
 
 <img src='imgs/gif_cut.gif' align="right" width=960>
@@ -310,7 +308,3 @@ If you use the original [pix2pix](https://phillipi.github.io/pix2pix/) and [Cycl
   year={2017}
 }
 ```
-
-
-### Acknowledgments
-We thank Allan Jabri and Phillip Isola for helpful discussion and feedback. Our code is developed based on [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). We also thank [pytorch-fid](https://github.com/mseitzer/pytorch-fid) for FID computation,  [drn](https://github.com/fyu/drn) for mIoU computation, and [stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch/) for the PyTorch implementation of StyleGAN2 used in our single-image translation setting.
